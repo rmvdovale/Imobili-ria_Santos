@@ -1,0 +1,111 @@
+body { /*todo o corpor do site, fundo azul*/
+    text-align: center;
+    font-family: Tahoma;
+    margin: 0 auto;
+    background-color:  #b0ddfc;
+}
+
+.texto-azul {
+    color: #207ebc;
+}
+
+.texto-amarelo {
+    color: yellow;
+}
+
+
+
+span { /*todos os span com negrito*/
+    font-weight: bold;
+}
+
+.img-logo { /*imagem do logo*/
+    width: 180px;
+    height: 180px;
+}
+
+.seção_1 a { /*links abaixo do logo*/
+    font-size:20px;
+    color: black;
+    margin: 0 10px;
+    padding-bottom: 40px;
+}
+
+.seção-banner { /*seção do baner, fundo braco*/
+    background-color:  white;
+}
+
+.seção-banner img { /*imagem do banner, tam e uma borda*/
+    width: 1400px;
+    height: 400px;
+    border: 50px solid white;
+}
+
+.sobre, .corretores { /*seção sobre e corretores, fundo e espaçamento*/
+    background-color: white;
+    padding: 1px;
+}
+
+.sobre div, .texto-corretores { /*texto da seção "sobre" e da seção "corretores"*/
+    margin: auto 350px;
+    font-size: 20px;
+    text-align: left;
+    padding: 25px ;
+}
+
+.sobre h2 { /*tirado o negrito do subtitulo*/
+    font-weight: normal;
+}
+
+.img-imovel, .img-corretor { /*imagem da seção "sobre" e imagem da seção "corretor"*/
+    width: 450px;
+    height: 350px;
+}
+
+.serviços, .contato {/*seção serviço e seção contatos*/
+    background-color: #1d80c1;
+    padding: 10px;
+    color:white;
+}
+
+.sub-serviços, .sub-contato { /*Subtitulo de "serviço" e "contato"*/
+    line-height: 65px;
+}
+
+.texto-serviços { /*texto da seção serviço*/
+    margin: auto 590px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.lista-serviços {/*estilização da lista*/
+    margin: 50px 850px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+.sub-corretores { /*subtitulo corretores*/
+    color: #1d80c1;
+    padding: 25px ;  
+}
+
+.texto-contato {
+    background-color: black;
+    margin: 20px 470px;
+    padding: 12px;
+}
+
+.contato a {
+    background: white;
+    padding: 3px;
+    border-radius: 5px;
+    color:#207ebc
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 1px;
+    text-align: center;
+    font-size: 10px;
+}
